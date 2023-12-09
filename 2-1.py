@@ -16,7 +16,7 @@ with open('in.2', 'r') as fd:
                         raise RuntimeError(f'Limit on {c} reached in game {n_game}')
             result += n_game
         except RuntimeError as e:
-           print(e)
+           # print(e)
            pass
 
 print(result)
