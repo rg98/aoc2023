@@ -161,3 +161,4 @@ cython_debug/
 
 # Advent of Code 2023 inputs
 in.*
+rin.*
