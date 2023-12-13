@@ -5,7 +5,7 @@ import numpy as np
 space = []
 
 # Read input
-with open('rin.11', 'r') as fd:
+with open('in.11', 'r') as fd:
     for line in fd:
         space.append([int((ord(c)-46)/(-11)) for c in line[:-1]])
 
