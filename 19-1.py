@@ -59,8 +59,8 @@ for part in parts:
     workflow = 'in'
     while workflow not in 'AR':
         workflow = next_step(part, workflow, workflows)
-        if workflow == 'A':
-            accepted.append(part)
+    if workflow == 'A':
+        accepted.append(part)
 
 result = 0
 for part in accepted:
